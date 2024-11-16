@@ -1,0 +1,254 @@
+/* General Section Styles */
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* Consistent padding for all sections */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+    padding: 60px 20px; /* Adjust padding for balance */
+    text-align: center;
+    margin: 0 auto;
+}
+.hero-section {
+    background-image: url('https://wallpaperaccess.com/full/1398314.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image tiling */
+    padding: 100px 20px; /* Add padding for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
+}
+
+.hero-section img {
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px 20px; /* Consistent padding */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px; /* Consistent padding for all sections */
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+section p {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+section {
+    padding: 80px 20px; /* Add more padding for spacing */
+    margin: 40px 0; /* Create a gap between sections */
+    border-radius: 10px; /* Slightly rounded edges for unique design */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for distinction */
+}
+section h2 {
+    text-align: center;
+    font-size: 3rem; /* Increase font size for impact */
+    margin-bottom: 30px;
+    color: #333; /* Darker text for better contrast */
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    text-transform: uppercase; /* Make headings uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    position: relative; /* For decorative underline */
+}
+
+/* Add a decorative underline */
+section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #007bff; /* Accent color */
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Background colors for each section */
+/* About Section */
+#about {
+    background: linear-gradient(to right, #f9f9f9, #e8e8e8); /* Subtle gradient */
+    color: #333;
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(to bottom, #e8f5e9, #d7ffd9);
+    color: #333;
+}
+
+/* Projects Section */
+#projects {
+    background: linear-gradient(to right, #f3e5f5, #e1bee7);
+    color: #333;
+}
+
+/* Services Section */
+#services {
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+    color: #333;
+}
+
+/* Education Section */
+#education {
+    background: linear-gradient(to right, #fffde7, #fff9c4);
+    color: #333;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    color: #333;
+}
+
+
+/* Skills Section */
+#skills .progress {
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+#skills .progress-bar {
+    background-color: #007bff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-tile {
+    width: calc(33% - 20px); /* 3 tiles per row */
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+    transform: scale(1.05);
+}
+
+/* Image Styles */
+.project-tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Tile Headings */
+.project-tile h3 {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.project-tile p {
+    color: #666;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Tile Links */
+.project-tile a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-tile a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .project-tile {
+        width: calc(50% - 20px); /* 2 tiles per row for tablets */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .project-tile {
+        width: 100%; /* 1 tile per row for small screens */
+    }
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form input, #contact-form textarea {
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for input fields */
+}
+
+#contact-form button {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact-form button:hover {
+    background: linear-gradient(to right, #0056b3, #003a75);
+}
+
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}

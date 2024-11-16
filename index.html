@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "AoXaoltGNAa_QqcqR",
+      });
+   })();
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/saifur552" target="_blank">GitHub Profile</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<!-- Hero Section -->
+<header class="hero-section text-center text-white animate__animated animate__fadeIn">
+    <img src="profile pic.jpg" alt="My Photo" class="rounded-circle shadow" width="150">
+    <h1>Hello I am Saifur Rahman</h1>
+    <p>Web Developer | Designer | Teacher | Problem Solver</p>
+</header>
+
+<!-- About Me Section -->
+<section id="about" class="container mt-5 animate__animated animate__fadeInLeft">
+    <h2>About Me</h2>
+    <p>I'm a dedicated developer with a passion for learning new technologies and creating impactful projects. Currently pursuing a degree in CSE, my focus is on web development, software engineering, and problem-solving. I love tackling challenges, contributing to open-source projects, and collaborating with fellow developers.</p>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="container mt-5">
+    <h2>Skills</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <p>JavaScript</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <p>Bootstrap</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <p>C</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <p>C++</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <p>Java</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <p>MySql</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+        </div>
+        <!-- Add remaining skills here -->
+    </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="container mt-5">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-tile">
+            <img src="survey form.PNG" alt="Project 1">
+            <h3>Survey Form</h3>
+            
+            <a href="https://saifur552.github.io/surveyForm/" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <img src="portfolio.PNG" alt="Project 2">
+            <h3>Portfolio</h3>
+           
+            <a href="https://saifur552.github.io/Bio/index.html" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <img src="tic tac.jpg" alt="Project 2">
+            <h3>Tic Tac Toe</h3>
+           
+            <a href="https://saifur552.github.io/tictac/" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <img src="calculator.png" alt="Project 2">
+            <h3>Calculator</h3>
+          
+            <a href="https://saifur552.github.io/calculator/" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <img src="technical doc.jpg" alt="Project 2">
+            <h3>Technical Documentation Page</h3>
+          
+            <a href="https://saifur552.github.io/tdoc/" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <img src="gradesheet.png" alt="Project 2">
+            <h3>Gradesheet</h3>
+      
+            <a href="https://saifur552.github.io/gradesheet/" target="_blank">View Project</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Services Section -->
+<section id="services">
+    <h2>Services</h2>
+    <div class="projects-container">
+        <div class="project-tile">
+            <img src="static web.png" alt="Service 1">
+            <h3>Static Webpage</h3>
+            <p>Build Blogpage,webpage,Free hosting</p>
+        </div>
+        <div class="project-tile">
+            <img src="uml.png" alt="Service 2">
+            <h3>UML Design</h3>
+            <p>Design UML,State diagrams,User Diagrams,stytem Architecture</p>
+        </div>
+        <div class="project-tile">
+            <img src="dataManage.jpg" alt="Service 1">
+            <h3>Data Management</h3>
+            <p>Professional services for business.</p>
+        </div>
+        <div class="project-tile">
+            <img src="c ,c++ project.jpg" alt="Service 1">
+            <h3>Mini Projects</h3>
+            <p>Build mini Projects in many Language like : c,c++,java</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Education Section -->
+<section id="education" class="container mt-5">
+    <h2>Education</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Degree</th>
+                <th scope="col">Institution</th>
+                <th scope="col">GPA/CGPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2012</td>
+                <td>PSC</td>
+                <td>Govt. Muslim High School,Chattogram</td>
+                <td>5.00</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>JSC</td>
+                <td>Govt. Muslim High School,Chattogram</td>
+                <td>5.00</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>SSC</td>
+                <td>Govt. Muslim High School,Chattogram</td>
+                <td>5.00</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>HSC</td>
+                <td>City College,Chattogram</td>
+                <td>5.00</td>
+            </tr>
+            <tr>
+                <td colspan="4">Current Studing Bsc. in Computer Science At Jahangirnagar University</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
+
+<section id="contact" class="container mt-5">
+    <h2>Contact Me</h2>
+    <form id="contact-form" onsubmit="sendEmail(event)">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <p id="success-message" style="display: none; color: green; margin-top: 10px;">Email sent successfully!</p>
+    <p id="error-message" style="display: none; color: red; margin-top: 10px;">Failed to send email. Please try again later.</p>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="text-center mt-5 py-4 bg-dark text-white">
+    <p>&copy; By Saifur Rahman</p>
+    <p>Email: rahman01882577552@gmail.com</p>
+</footer>
+
+<!-- Bootstrap and Custom Scripts -->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
+<!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+
+</body>
+</html>
